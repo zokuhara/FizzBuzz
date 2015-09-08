@@ -1,13 +1,13 @@
 def fizzbuzz(number)
   (1..number).each do |integer|
     if (integer % 3 == 0 && integer % 5 == 0)
-      puts "FizzBuzz"
+      print "FizzBuzz"
     elsif integer % 3 == 0
-      puts "Fizz"
+      print "Fizz"
     elsif integer % 5 == 0
-      puts "Buzz"
+      print "Buzz"
     else
-      puts integer
+      print integer
     end
   end
 end
