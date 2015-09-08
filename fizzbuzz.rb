@@ -12,4 +12,6 @@ def fizzbuzz(number)
   end
 end
 
-fizzbuzz(50)
+puts "What number would you like to stop counting at?"
+x = gets.chomp.to_i
+fizzbuzz(x)
